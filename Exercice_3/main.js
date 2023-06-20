@@ -1,6 +1,9 @@
-const search = document.getElementById("lastname");
+
+
+
+const search = document.getElementById("search");
 
 search.addEventListener("keyup", function (e) {
   const inputText = e.target.value; // Get the text typed by user
-  alert(inputText); // log the input text out
+  console.log(inputText); // log the input text out
 });
